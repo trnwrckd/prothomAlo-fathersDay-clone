@@ -4,6 +4,21 @@ header{
 .hero{
     background-color: #EAFFF1;
 }
+/* hero images */
+.default-hero-img{
+    display: block;
+}
+.mobile-hero-img{
+    display: none;
+}
+/* ads */
+.default-ad{
+    display: block;
+}
+.mobile-ad{
+    display:none;
+}
+
 .hero-text-bg{
     background: linear-gradient(to left top, rgb(20, 59, 66) 0%, rgb(3, 147, 64) 100%);
     color: white;
@@ -13,6 +28,9 @@ header{
 .highlighted-text{
     color: rgb(193, 255, 219);
     font-size: 1.5em;
+}
+h3{
+    font-size: 2.4rem;
 }
 [data-blueText]{
     color:rgb(10, 35, 114);

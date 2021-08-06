@@ -17,34 +17,35 @@
 
 <body>
     <header>
-        <div class="nav navbar container">
+        <nav class="nav navbar container">
             <div>
                 <img src="assets/projekt-logo.png" alt="protekt logo" height="73">
             </div>
             <div>
                 <img src="assets/prothomalo-logo.jpg" alt="prothomalo logo" height="26">
             </div>
-        </div>
+        </nav>
     </header>
 
     <main>
         <!-- hero section -->
         <section class="hero">
-            <div class="container">
-                <img class="img-fluid" src="assets/hero-img.png" alt="hero-image" srcset="">
+            <div class="container py-4">
+                <img class="img-fluid default-hero-img" src="assets/hero-img.png" alt="hero-image" srcset="">
+                <img class="img-fluid mobile-hero-img" src="assets/hero-img-mobile.png" alt="hero-image" srcset="">
             </div>
         </section>
         <!-- ad section -->
-        <section>
-            <div>
-                <img src="assets/ad-img.jpg" alt="">
+        <section class="mt-4">
+            <div class="d-flex justify-content-center">
+                <img class="img-fluid default-ad" src="assets/ad-img.jpg" alt="">
+                <img class="img-fluid mobile-ad" src="assets/ad-img-mobile.jpg" alt="">
             </div>
         </section>
         <!-- hero text section -->
-        <section class="hero-text-bg">
-            <div>
-                <p>
-                <h2>
+        <section class="hero-text-bg my-5">
+            <div class="container py-5 d-flex justify-content-center">
+                <h2 class="w-75">
                     <span class="highlighted-text">
                         বাবা মানে বটবৃক্ষ,
                     </span>
@@ -58,116 +59,123 @@
                         ‘বাবা, আমি তোমায় ভালোবাসি।’
                     </span>
                 </h2>
-                </p>
             </div>
         </section>
         <!-- card section -->
         <section class="container">
-            <h3 data-blueText>
+            <h3 data-blueText class="text-center">
                 বাবাকে নিয়ে পাঠকদের লেখা
             </h3>
             <!-- row begins -->
-            <div class="row row-cols-1 row-cols-lg-3 g-4">
-                <div class="col h-100">
-                    <div class="d-flex flex-column post-card">
-                        <div><img class="img-fluid" src="assets/post-1.webp" alt="" srcset=""></div>
-                        <h4>একটা শার্ট, গেঞ্জি আর ভাঙা শোপিস বাবার স্মৃতি</h4>
-                        <p>
-                            কিন্তু বাবা দিবস এলে তাঁর মনটা খারাপ হয়ে যায়। তিনি নীরব থাকতে চান। বাবা হারানোর কষ্টটা এ সময়
-                            তাঁকে বেশি করে ঘিরে ধরে। ...
-                        </p>
+            <div class="py-3 pt-4">
+                <div class="row row-cols-1 row-cols-lg-3 g-4">
+                    <div class="col h-100">
+                        <div class="d-flex flex-column post-card">
+                            <div><img class="img-fluid" src="assets/post-1.webp" alt="" srcset=""></div>
+                            <h4>একটা শার্ট, গেঞ্জি আর ভাঙা শোপিস বাবার স্মৃতি</h4>
+                            <p>
+                                কিন্তু বাবা দিবস এলে তাঁর মনটা খারাপ হয়ে যায়। তিনি নীরব থাকতে চান। বাবা হারানোর কষ্টটা এ
+                                সময়
+                                তাঁকে বেশি করে ঘিরে ধরে। ...
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="col h-100">
-                    <div class="d-flex flex-column post-card">
-                        <div><img class="img-fluid" src="assets/post-2.webp" alt="" srcset=""></div>
-                        <h4>রূপকথার বাবা</h4>
-                        <p>
-                            এই দুই বোনও চাইতেন বাবাকে বিয়ে দিয়ে ‘নয়া মা’ আনতে। নিজেরা ‘যুক্তি করে’ খুঁজেছেনও। তাঁদের
-                            ভেতর দুই–একজনের ‘ইন্টারর্ভিউ’ও ...
-                        </p>
+                    <div class="col h-100">
+                        <div class="d-flex flex-column post-card">
+                            <div><img class="img-fluid" src="assets/post-2.webp" alt="" srcset=""></div>
+                            <h4>রূপকথার বাবা</h4>
+                            <p>
+                                এই দুই বোনও চাইতেন বাবাকে বিয়ে দিয়ে ‘নয়া মা’ আনতে। নিজেরা ‘যুক্তি করে’ খুঁজেছেনও। তাঁদের
+                                ভেতর দুই–একজনের ‘ইন্টারর্ভিউ’ও ...
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="col h-100">
-                    <div class="d-flex flex-column post-card">
-                        <div><img class="img-fluid" src="assets/post-3.webp" alt="" srcset=""></div>
-                        <h4>বাবা গেছেন অজানা স্টেশনে</h4>
-                        <p>
-                            বাবার আরও একটি সমস্যা হলো, তিনি কাউকে কিছু না বলে বাসা থেকে হুটহাট বেরিয়ে পড়তেন। ট্রেনে বা
-                            বাসে চড়ে চলে যেতেন ...
-                        </p>
+                    <div class="col h-100">
+                        <div class="d-flex flex-column post-card">
+                            <div><img class="img-fluid" src="assets/post-3.webp" alt="" srcset=""></div>
+                            <h4>বাবা গেছেন অজানা স্টেশনে</h4>
+                            <p>
+                                বাবার আরও একটি সমস্যা হলো, তিনি কাউকে কিছু না বলে বাসা থেকে হুটহাট বেরিয়ে পড়তেন। ট্রেনে
+                                বা
+                                বাসে চড়ে চলে যেতেন ...
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="col h-100">
-                    <div class="d-flex flex-column post-card">
-                        <div><img class="img-fluid" src="assets/post-4.webp" alt="" srcset=""></div>
-                        <h4>বাবার ছেঁড়া লুঙ্গি</h4>
-                        <p>
-                            দুফোঁটা চোখের পানি ফেলে মনে মনে বললাম, বাবা, এমনিভাবে কতই–না ত্যাগের কথা তুমি গোপন ...
-                        </p>
+                    <div class="col h-100">
+                        <div class="d-flex flex-column post-card">
+                            <div><img class="img-fluid" src="assets/post-4.webp" alt="" srcset=""></div>
+                            <h4>বাবার ছেঁড়া লুঙ্গি</h4>
+                            <p>
+                                দুফোঁটা চোখের পানি ফেলে মনে মনে বললাম, বাবা, এমনিভাবে কতই–না ত্যাগের কথা তুমি গোপন ...
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="col h-100">
-                    <div class="d-flex flex-column post-card">
-                        <div><img class="img-fluid" src="assets/post-5.webp" alt="" srcset=""></div>
-                        <h4>বাবা যেন ইচ্ছেপূরণের দৈত্য</h4>
-                        <p>
-                            একদিন জানলাম, চাঁদ তার অবস্থানেই থাকে। কিন্তু বাবার অবস্থানের কোনো পরিবর্তন হয়নি। ছোটবেলায়
-                            যেভাবে দেখেছি, এখনো সঙ্গে ..
-                        </p>
+                    <div class="col h-100">
+                        <div class="d-flex flex-column post-card">
+                            <div><img class="img-fluid" src="assets/post-5.webp" alt="" srcset=""></div>
+                            <h4>বাবা যেন ইচ্ছেপূরণের দৈত্য</h4>
+                            <p>
+                                একদিন জানলাম, চাঁদ তার অবস্থানেই থাকে। কিন্তু বাবার অবস্থানের কোনো পরিবর্তন হয়নি।
+                                ছোটবেলায়
+                                যেভাবে দেখেছি, এখনো সঙ্গে ..
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="col h-100">
-                    <div class="d-flex flex-column post-card">
-                        <div><img class="img-fluid" src="assets/post-6.webp" alt="" srcset=""></div>
-                        <h4>আমার রাগী বাবা</h4>
-                        <p>
-                            সে সময় বাবার শাসনে রাগ-অভিমান করেছি, ভাত খাওয়া বন্ধ করেছি। এখন মনে হয়, বাবাই ঠিক ...
-                        </p>
+                    <div class="col h-100">
+                        <div class="d-flex flex-column post-card">
+                            <div><img class="img-fluid" src="assets/post-6.webp" alt="" srcset=""></div>
+                            <h4>আমার রাগী বাবা</h4>
+                            <p>
+                                সে সময় বাবার শাসনে রাগ-অভিমান করেছি, ভাত খাওয়া বন্ধ করেছি। এখন মনে হয়, বাবাই ঠিক ...
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="col h-100">
-                    <div class="d-flex flex-column post-card">
-                        <div><img class="img-fluid" src="assets/post-7.webp" alt="" srcset=""></div>
-                        <h4>বাবার বিশ্বাসেই আজকের আমি</h4>
-                        <p>এমন স্বাধীনতা, সম্মান, ভরসা হয়তো একজন বাবাই তাঁর মেয়েকে দিতে ...
-                        </p>
+                    <div class="col h-100">
+                        <div class="d-flex flex-column post-card">
+                            <div><img class="img-fluid" src="assets/post-7.webp" alt="" srcset=""></div>
+                            <h4>বাবার বিশ্বাসেই আজকের আমি</h4>
+                            <p>এমন স্বাধীনতা, সম্মান, ভরসা হয়তো একজন বাবাই তাঁর মেয়েকে দিতে ...
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="col h-100">
-                    <div class="d-flex flex-column post-card">
-                        <div><img class="img-fluid" src="assets/post-8.webp" alt="" srcset=""></div>
-                        <h4>আমার সাহসী বাবা</h4>
-                        <p>তোমার প্রতিটি সেকেন্ডের লড়াই আমার জন্য এক অনুপ্রেরণা, বাবা। তবু আমি তোমার মেয়ে হয়েও এত ভিতু
-                            কেন, বলো তো? এত সহজে হাল ...
-                        </p>
+                    <div class="col h-100">
+                        <div class="d-flex flex-column post-card">
+                            <div><img class="img-fluid" src="assets/post-8.webp" alt="" srcset=""></div>
+                            <h4>আমার সাহসী বাবা</h4>
+                            <p>তোমার প্রতিটি সেকেন্ডের লড়াই আমার জন্য এক অনুপ্রেরণা, বাবা। তবু আমি তোমার মেয়ে হয়েও এত
+                                ভিতু
+                                কেন, বলো তো? এত সহজে হাল ...
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="col h-100">
-                    <div class="d-flex flex-column post-card">
-                        <div><img class="img-fluid" src="assets/post-9.webp" alt="" srcset=""></div>
-                        <h4>বিতর্কে বাবা আমার প্রতিপক্ষ</h4>
-                        <p>ছেলে হিসেবে আমার সবচেয়ে বড় কষ্ট হলো, চোখের সামনে বাবাকে বৃদ্ধ হতে ...
-                        </p>
+                    <div class="col h-100">
+                        <div class="d-flex flex-column post-card">
+                            <div><img class="img-fluid" src="assets/post-9.webp" alt="" srcset=""></div>
+                            <h4>বিতর্কে বাবা আমার প্রতিপক্ষ</h4>
+                            <p>ছেলে হিসেবে আমার সবচেয়ে বড় কষ্ট হলো, চোখের সামনে বাবাকে বৃদ্ধ হতে ...
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="col h-100">
-                    <div class="d-flex flex-column post-card">
-                        <div><img class="img-fluid" src="assets/post-10.webp" alt="" srcset=""></div>
-                        <h4>আব্বার সঙ্গে অভিমান</h4>
-                        <p>‘আমি বোঝা হয়ে গেছি’ এই কথার জন্য আব্বা ডুকরে কেঁদেছেন।
+                    <div class="col h-100">
+                        <div class="d-flex flex-column post-card">
+                            <div><img class="img-fluid" src="assets/post-10.webp" alt="" srcset=""></div>
+                            <h4>আব্বার সঙ্গে অভিমান</h4>
+                            <p>‘আমি বোঝা হয়ে গেছি’ এই কথার জন্য আব্বা ডুকরে কেঁদেছেন।
 
-                            এসব শুনে মাথা এলোমেলো হয়ে গেল। ব্যাগ না গুছিয়েই এক কাপড়ে ..
-                        </p>
+                                এসব শুনে মাথা এলোমেলো হয়ে গেল। ব্যাগ না গুছিয়েই এক কাপড়ে ..
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section>
-            <div>
-                <img class="img-fluid" src="assets/ad-img.jpg" alt="" srcset="">
-            </div>
+        <section class="py-5">
+            <div class="d-flex justify-content-center">
+                <div class="">
+                    <img class="img-fluid default-ad" src="assets/ad-img.jpg" alt="">
+                    <img class="img-fluid mobile-ad" src="assets/ad-img-mobile.jpg" alt="">
+                </div>
         </section>
 
         <!-- floating fb share button -->

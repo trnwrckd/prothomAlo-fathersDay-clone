@@ -1,5 +1,9 @@
+body{
+    font-family: "Shurjo" ;
+}
 header{
     border-bottom: 1px solid lightgray;
+    background: white;
 }
 .hero{
     background-color: #EAFFF1;
@@ -29,6 +33,16 @@ header{
     color: rgb(193, 255, 219);
     font-size: 1.5em;
 }
+
+.text-green{
+    color: #06632d;
+    font-weight: bold;
+}
+
+a,a:hover{
+    text-decoration: none;
+    color: inherit;
+}
 h3{
     font-size: 2.4rem;
 }
@@ -43,6 +57,9 @@ h3{
     background: rgb(48, 76, 134);
     color: white;
     bottom: 6px;
+}
+.float-btn:hover{
+    color: white;
 }
 footer{
     text-align: center;

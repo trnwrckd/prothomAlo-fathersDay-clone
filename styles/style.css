@@ -4,6 +4,11 @@ body{
 header{
     border-bottom: 1px solid lightgray;
     background: white;
+    transition:height 1s ease-out;
+    overflow:hidden;
+}
+main{
+    /* margin-top: 90px; */
 }
 .hero{
     background-color: #EAFFF1;
@@ -53,7 +58,10 @@ h3{
     border: 1px solid lightgray;
 }
 .float-btn{
+    transform: rotate(-90deg);
+    transform-origin: top left 10px;
     position: fixed;
+    
     background: rgb(48, 76, 134);
     color: white;
     bottom: 6px;

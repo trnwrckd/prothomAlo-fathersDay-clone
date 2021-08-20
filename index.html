@@ -17,7 +17,14 @@
 </head>
 
 <body>
-    <header>
+    <!-- fb sdk -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v11.0"
+        nonce="iMe0X9rg"></script>
+
+    <!-- page starts -->
+
+    <header id="navBar fixed-top">
         <nav class="nav navbar container">
             <div>
                 <a href="https://chaldal.com/godrej-protekt" target="_blank">
@@ -246,15 +253,23 @@
         </section>
 
         <!-- floating fb share button -->
-        <button class="btn float-btn">
-            শেয়ার করুন
-            <img height="24" src="assets/facebook_icon.png" alt="" srcset="">
+        <button class="btn float-btn" data-href="https://www.prothomalo.com/campaigns/baba-tomake-bola-hoyni/index.html"
+            data-layout="button_count" data-size="small"><a target="_blank"
+                href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.prothomalo.com%2Fcampaigns%2Fbaba-tomake-bola-hoyni%2Findex.html&amp;src=sdkpreparse"
+                class="fb-xfbml-parse-ignore">
+                শেয়ার করুন
+                <img height="24" src="assets/facebook_icon.png" alt="" srcset="">
         </button>
     </main>
 
     <footer>
         <p>স্বত্ব © ২০২১ প্রথম আলো</p>
     </footer>
+
+    <!-- jquery -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- custom -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>

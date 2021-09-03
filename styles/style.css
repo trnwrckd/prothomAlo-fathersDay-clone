@@ -7,6 +7,21 @@ header{
     transition:height 1s ease-out;
     overflow:hidden;
 }
+
+/* nav drop animation */
+.animate{
+    animation: drop .6s ease-in;
+}
+
+@keyframes drop {
+    from{
+        top: -10%;
+    }
+    to{
+        top: 0%;
+    }
+}
+
 main{
     /* margin-top: 90px; */
 }

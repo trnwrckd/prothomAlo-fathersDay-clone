@@ -1,17 +1,14 @@
-const navBar = $("#navBar");
-// const navPosition = navBar.offsetHeight;
-// // console.log(navPosition)
+const navBar = document.getElementById("navBar");
+// const navBar = $("#navBar");
 
-
-// $(window).scroll(function () {
-//     if ($(window).scrollTop()) {
-
-//     }
-
-// });
 
 window.addEventListener("scroll", function () {
-    navBar.hide().slideDown("slow", function () {
-        // navBar.toggleClass("fixed-top", window.scrollY > 0);
-    })
+    if (window.scrollY > 90) {
+        // navBar.classList.remove("fixed-top");
+        navBar.classList.add("animate");
+    }
+    else {
+        navBar.classList.remove("animate");
+        navBar.classList.add("fixed-top");
+    }
 })

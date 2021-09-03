@@ -10,12 +10,12 @@ header{
 
 /* nav drop animation */
 .animate{
-    animation: drop .6s ease-in;
+    animation: drop .5s ease-in;
 }
 
 @keyframes drop {
     from{
-        top: -10%;
+        top: -90px;
     }
     to{
         top: 0%;
@@ -23,24 +23,10 @@ header{
 }
 
 main{
-    /* margin-top: 90px; */
+    margin-top: 90px;
 }
 .hero{
     background-color: #EAFFF1;
-}
-/* hero images */
-.default-hero-img{
-    display: block;
-}
-.mobile-hero-img{
-    display: none;
-}
-/* ads */
-.default-ad{
-    display: block;
-}
-.mobile-ad{
-    display:none;
 }
 
 .hero-text-bg{
@@ -48,7 +34,13 @@ main{
     color: white;
     font-size: 1.8rem;
     text-align: center;
+    text-indent: 100px;
+    line-height: 1.5 !important;
 }
+.hero-container{
+    /* padding: 0 100px; */
+    width: 60%;
+}   
 .highlighted-text{
     color: rgb(193, 255, 219);
     font-size: 1.5em;
@@ -89,4 +81,15 @@ footer{
     background: #222222;
     color: white;
     padding: 42px 0;
+}
+
+@media only screen and (max-width:992px){
+    .hero-text-bg{
+        font-size: 1.4rem;
+        text-indent: 0;
+        line-height: 1.5 !important;
+    }
+    .hero-container{
+        padding: 0 10px;
+    }
 }
